@@ -13,25 +13,27 @@
             <button id="start_btn">Commencer</button>
             <div id="highscore">
                 <img src="kisspng-emojipedia-trophy-award-clip-art-trophy-cup-5ad7ddb59876b3.7628980815240964376245.png" alt="" id="logo_score">
-                <p id="bestScore">Meilleur score : </p>
+                <p id="bestScore">Meilleur score : 0</p>
             </div>
         </header>
         <main id="main">
             <div id="main_card">
                 <h1>Guess my Number!</h1>
                 <h6>petit jeu de devinette numérique</h6>
-                <p id="game_msg"></p>
-                <div id="showNum_card"></div>
+                <p id="game_msg">Devinez un nombre entre 1 et 100</p>
+            </div>
+            <div id="showNum_card">
+                <img src="SeekPng.com_bald-man-png_4018776.png" alt="Questions created by Freepik" id="appFace">
             </div>
             <form action="" id="interactiv_card">
-                <input type="text" id="userChoice">
-                <button id="verify_btn">Vérifier</button>
+                <input type="text" id="userChoice" disabled>
+                <button id="verify_btn" disabled>Vérifier</button>
             </form>
         </main>
         <footer id="bottom">
             <div id="results_card">
-                <p id="curScore"></p>
-                <p id="triesLeft"></p>
+                <p id="curScore">Score : </p>
+                <p id="triesLeft">Essais : </p>
             </div>
         </footer>
     </div>
