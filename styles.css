@@ -1,0 +1,66 @@
+#container {
+    width: 75%;
+    margin: auto;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#highscore {
+    display: flex;
+    align-items: baseline;
+}
+
+#logo_score {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#start_btn {
+    box-shadow: 5px 5px 5px 0px rgba(10, 10,10,0.4);;
+}
+
+#start_btn:hover {
+    cursor: pointer;
+}
+
+#main {
+    text-align: center;
+}
+
+#main_card, #interactiv_card {
+    margin: auto;
+    width: 60%;
+    background-color: azure;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0,0,0.4);
+}
+
+#main_card h1 {
+    margin-bottom: 0.1rem;
+}
+
+#main_card h6 {
+    margin-top: 0;
+}
+
+#interactiv_card { 
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0,0,0.4);
+}
+
+#userChoice {
+    margin-top: 1rem;
+    width: 40%;
+}
+
+#verify_btn {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 30%;
+}
