@@ -1,3 +1,9 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
 #container {
     width: 75%;
     margin: auto;
@@ -19,7 +25,7 @@
 }
 
 #start_btn {
-    box-shadow: 5px 5px 5px 0px rgba(10, 10,10,0.4);;
+    box-shadow: 5px 5px 5px 0px rgba(10, 10,10,0.4);  
 }
 
 #start_btn:hover {
@@ -30,11 +36,17 @@
     text-align: center;
 }
 
-#main_card, #interactiv_card {
+#main_card, #showNum_card, #interactiv_card, #results_card {
     margin: auto;
-    width: 60%;
+    /* width: 60%; */
     background-color: azure;
     box-shadow: 5px 5px 5px 0px rgba(0, 0,0,0.4);
+}
+
+#showNum_card {
+    width: 30%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #main_card h1 {
@@ -45,7 +57,11 @@
     margin-top: 0;
 }
 
+#appFace {
+    width: 100%;
+}
 #interactiv_card { 
+    width: 60%;
     background-color: azure;
     display: flex;
     flex-direction: column;
@@ -63,4 +79,13 @@
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     width: 30%;
+}
+
+#results_card {
+    margin-top: 1.2rem;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    color: azure;
+    padding: 0.5rem 0rem 0.5rem;
 }
