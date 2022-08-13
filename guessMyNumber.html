@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess My Number</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id="top">
-        <button id="start_btn">Commencer</button>
-        <div id="highscore">
-            <img src="" alt="" id="logo_score">
-            <p id="bestScore">Meilleur score : </p>
-        </div>
-    </header>
-    <main id="main">
-        <div id="main_card">
-            <h1>Guess my Number!</h1>
-            <h6>petit jeu de devinette numérique</h6>
-            <p id="game_msg"></p>
-            <div id="showNum_card"></div>
-        </div>
-        <form action="" id="interactiv_card">
-            <input type="text" id="userChoice">
-            <button id="verify_btn">Vérifier</button>
-        </form>
-    </main>
-    <footer id="bottom">
-        <div id="results_card">
-            <p id="curScore"></p>
-            <p id="triesLeft"></p>
-        </div>
-    </footer>
+    <div id="container">
+        <header id="top">
+            <button id="start_btn">Commencer</button>
+            <div id="highscore">
+                <img src="kisspng-emojipedia-trophy-award-clip-art-trophy-cup-5ad7ddb59876b3.7628980815240964376245.png" alt="" id="logo_score">
+                <p id="bestScore">Meilleur score : </p>
+            </div>
+        </header>
+        <main id="main">
+            <div id="main_card">
+                <h1>Guess my Number!</h1>
+                <h6>petit jeu de devinette numérique</h6>
+                <p id="game_msg"></p>
+                <div id="showNum_card"></div>
+            </div>
+            <form action="" id="interactiv_card">
+                <input type="text" id="userChoice">
+                <button id="verify_btn">Vérifier</button>
+            </form>
+        </main>
+        <footer id="bottom">
+            <div id="results_card">
+                <p id="curScore"></p>
+                <p id="triesLeft"></p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
