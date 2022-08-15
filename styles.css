@@ -7,6 +7,7 @@
 #container {
     width: 75%;
     margin: auto;
+    padding: 1rem;
 }
 
 #top {
@@ -47,6 +48,7 @@
     width: 30%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 5rem;
 }
 
 #main_card h1 {
